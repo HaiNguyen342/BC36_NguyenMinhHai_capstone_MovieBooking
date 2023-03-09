@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Showing / Slider dots */
+.slick-slider ul {
+  margin-bottom: 0;
+}
+
+ul li.slick-active button {
+  background-color: #f4a34a !important;
+}
+
+/* Showing / Tabs  */
+.nav-tabs li button.active {
+  background-color: #f4a34a !important;
+  border: 1px solid #f4a34a !important;
+  color: #466880 !important;
+}
+
+/* Booking */
+.ghe {
+  border: 3px solid #f4a34a;
+  background: #fdfdfe;
+  width: 2.5rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.gheDuocChon {
+  border: 3px solid #f4a34a;
+  background: #f4a34a;
+  color: #000;
+  pointer-events: none;
+  border-radius: 5px;
+  width: 2.5rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1rem;
+  font-weight: 800;
+  user-select: none;
+}
+
+.gheDangChon {
+  background: rgb(109, 238, 109);
+  border: 3px solid rgb(109, 238, 109);
+  color: #000;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 5px;
+  width: 2.5rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.gheVip {
+  border: 3px solid red;
+  background: #fdfdfe;
+  width: 2.5rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 2rem;
+  user-select: none; 
+  cursor: pointer;
+}

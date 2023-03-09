@@ -1,0 +1,46 @@
+.tabs__button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.7rem;
+}
+
+.tabs__button button {
+  color: #022644;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.5s;
+  border: none;
+}
+
+.tabs__button button:hover {
+  color: #fff;
+  background-color: #022644;
+}
+
+/* Responsive  */
+/* 1700px */
+@media screen and (max-width: 1700px) {
+  .tabs__button {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.7rem;
+  }
+}
+
+/* 1600px */
+@media screen and (max-width: 1600px) {
+  .tabs__button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
+  }
+}
+
+/* 1400px */
+@media screen and (max-width: 1400px) {
+  .tabs__button {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.7rem;
+  }
+}

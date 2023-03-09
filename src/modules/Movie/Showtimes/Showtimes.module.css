@@ -1,0 +1,17 @@
+.showtimes {
+    padding: 25px;
+}
+
+.showtimes__tabs {
+    background-color: #fdfdfe;
+    border-radius: 5px;
+}
+
+.showtimes__button {
+    background-color: #466880;
+    transition: all 0.5s;
+}
+
+.showtimes__button:hover {
+    background-color: #f4a34a;
+}

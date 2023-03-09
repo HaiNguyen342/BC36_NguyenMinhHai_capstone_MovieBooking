@@ -1,0 +1,13 @@
+.bill {
+  width: 30rem;
+}
+
+.bill h5 {
+    margin-right: 1rem;
+}
+
+.bill__border {
+ 
+  border-right: 1px solid #fdfdfe;
+  padding-right: 2rem;
+}

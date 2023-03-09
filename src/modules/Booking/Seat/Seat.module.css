@@ -1,0 +1,13 @@
+.seat {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 10px;
+    margin-top: 2rem
+}
+
+.seat input {
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+

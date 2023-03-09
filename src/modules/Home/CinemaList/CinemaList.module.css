@@ -1,0 +1,11 @@
+.cinema {
+  background-color: #466880;
+  padding: 2rem 0;
+}
+
+.cinema__container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+

@@ -1,0 +1,14 @@
+.tabs__button {
+    width: 20rem;
+}
+
+.tabs__button button {
+    width: 20rem;
+}
+
+
+
+.tabs__button button:hover .tabs__text {
+    color: #466880;
+}
+
