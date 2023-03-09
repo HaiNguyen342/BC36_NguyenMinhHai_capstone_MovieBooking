@@ -17,7 +17,7 @@ const Header = () => {
         <Navbar.Brand href="#">
           <img
             width={200}
-            src="./image/Logo1.png"
+            src="Logo1.png"
             onClick={() => navigate("/")}
           />
         </Navbar.Brand>
